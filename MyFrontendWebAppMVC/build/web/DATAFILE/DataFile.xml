@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><app>
+    <users>
+        <user approved="" by="" firstname="eric" lastname="Murithi" password="eric" type="admin" username="eric"/>
+        <user approved="" by="" firstname="virginia" lastname="Wangui" password="virginia" type="doctor" username="virginia"/>
+        <user approved="" by="" firstname="bessy" lastname="Mwendwa" password="bessy" type="secretary" username="bessy"/>
+        <user approved="Y" by="bessy" firstname="ericpat" lastname="Murithi" password="ericpat" type="patient" username="ericpat"/>
+    
+<user approved="Y" by="bessy" firstname="test1" lastname="Test" password="test1" type="patient" username="test1"/>
+<user approved="" by="" firstname="Elis" lastname="Roberts" password="erob" type="doctor" username="erob"/>
+
+<user approved="" by="" firstname="Rami" lastname="Mhala" password="bob" type="secretary" username="rmhala"/>
+<user approved="Y" by="bessy" firstname="RodT" lastname="Tomos" password="pass" type="patient" username="RodT"/>
+</users>
+    <ratings>
+        <rating doctor="doc eric" message="He did not do well" rate="1" user="eric"/>
+    <rating doctor="virginia" message="woah" rate="5" user="ericpat"/>
+<rating doctor="erob" message="Not great, constantly berating me " rate="2" user="ericpat"/>
+</ratings>
+    <feedbacks>
+        <feedback/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+    <feedback doctor="eric" feedback="I was about to fire you"/>
+<feedback doctor="eric" feedback="I was about to fire you"/>
+<feedback doctor="virginia" feedback="Your patients are very impressed with you "/>
+</feedbacks>
+    <appointments>
+    
+
+        <appointment created="N" date="2019-01-16 13:00:00" doctor="doc eric" user="eric"/>
+    
+<appointment created="Y" date="01/21/2019" doctor="virginia" user="ericpat"/>
+
+
+<appointment attended="Y" created="Y" date="01/30/2019" doctor="erob" user="ericpat"/>
+</appointments>
+    <prescriptions>
+        <prescription created="N" date="2019-01-16 13:00:00" doctor="doc eric" user="eric"/>
+    <prescription date="01/30/2019" doctor="erob" dose="20MG" medicine="Citalopram&#13;&#10;" notes="" quantity="2" user="ericpat"/>
+</prescriptions>
+    <medicines>
+        
+    
+<medicine description="I was about to fire you" name="eric" quantity="2" type="j"/>
+
+
+<medicine description="For Anxiety and Depressions" name="Citalopram" quantity="66" type="Analgesics"/>
+<medicine description="For pain relief " name="Paracetamol " quantity="0" type="Antibiotics"/>
+<medicine description="Pain relief " name="Ibuprofen " quantity="0" type="Antibiotics"/>
+<medicine description="-" name="Penicillin " quantity="0" type="Antibiotics"/>
+<medicine description="-" name="Synthroid " quantity="0" type="Antiseptics"/>
+<medicine description="-" name="fluticasone" quantity="0" type="Analgesics"/>
+<medicine description="-" name="albuterol" quantity="0" type="Analgesics"/>
+<medicine description="-" name="Amoxil " quantity="0" type="Analgesics"/>
+<medicine description="-" name="Glucophage " quantity="0" type="Analgesics"/>
+</medicines>
+</app>

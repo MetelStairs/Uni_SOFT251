@@ -1,0 +1,13 @@
+<?xml version = "1.0"?>
+<app>
+    <users>
+        <user approved = "Y" by = "" type = "admin" firstname = "eric" lastname = "eric" username = "eric" password = "eric"></user>
+        <user approved = "Y" by = "" type = "doctor" firstname = "eric1" lastname = "eric1" username = "eric1" password = "eric1"></user>
+        <user approved = "Y" by = "" type = "secretary" firstname = "eric2" lastname = "eric2" username = "eric2" password = "eric2"></user>
+        <user approved = "Y" by = "" type = "patient" firstname = "eric3" lastname = "eric3" username = "eric3" password = "eric3"></user>
+        
+    </users>
+    
+    
+    
+</app>

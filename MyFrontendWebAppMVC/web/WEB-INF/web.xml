@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>views</servlet-name>
+        <servlet-class>ViewController.ViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>views</servlet-name>
+        <url-pattern>/Login</url-pattern>
+        <url-pattern>/Register</url-pattern>
+        <url-pattern>/Logout</url-pattern>
+        <url-pattern>/Admin</url-pattern>
+        <url-pattern>/Secretary</url-pattern>
+        <url-pattern>/Secretary/Login</url-pattern>
+        <url-pattern>/Admin/Login</url-pattern>
+        <url-pattern>/Doctor/Login</url-pattern>
+        
+        <url-pattern>/Doctor</url-pattern>
+        <url-pattern>/Admin/Register</url-pattern>
+        <url-pattern>/Admin/Doctors</url-pattern>
+        <url-pattern>/Patient</url-pattern>
+        <url-pattern>/Admin/Secretaries</url-pattern>
+        <url-pattern>/Admin/DoctorRatings</url-pattern>
+        <url-pattern>/Admin/AddNew</url-pattern>
+        <url-pattern>/AddUser</url-pattern>
+        
+        
+        <url-pattern>/DeleteUser</url-pattern>
+        <url-pattern>/Admin/ConfirmDelete</url-pattern>
+        <url-pattern>/Admin/GiveFeedBack</url-pattern>
+        <url-pattern>/Admin/DoctorFeedbacks</url-pattern>
+        <url-pattern>/Secretary/ApproveAccounts</url-pattern>
+        <url-pattern>/DoctorRatings</url-pattern>
+        <url-pattern>/RateDoctor</url-pattern>
+        <url-pattern>/RequestAppointment</url-pattern>
+        <url-pattern>/History</url-pattern>
+        <url-pattern>/Appointments</url-pattern>
+        
+        <url-pattern>/Prescriptions</url-pattern>
+        <url-pattern>/Terminate</url-pattern>
+        <url-pattern>/Admin/Logout</url-pattern>
+        <url-pattern>/Doctor/Logout</url-pattern>
+        <url-pattern>/Secretary/Logout</url-pattern>
+        <url-pattern>/Secretary/ViewAppointmentRequests</url-pattern>
+        <url-pattern>/Secretary/GiveMedicine</url-pattern>
+        <url-pattern>/Secretary/OrderMedicine</url-pattern>
+        
+        <url-pattern>/Secretary/RemovePatients</url-pattern>
+        <url-pattern>/Secretary/TerminateRequests</url-pattern>
+        <url-pattern>/Secretary/RemovePatient</url-pattern>
+        <url-pattern>/Secretary/TerminatePatient</url-pattern>
+        <url-pattern>/Secretary/Medicine</url-pattern>
+        <url-pattern>/Secretary/CreateAppointment</url-pattern>
+        <url-pattern>/Doctor/ViewAppointments</url-pattern>
+        <url-pattern>/Doctor/Medicine</url-pattern>
+        <url-pattern>/Doctor/CreateMedicine</url-pattern>
+        <url-pattern>/Doctor/ViewPrescriptions</url-pattern>
+        <url-pattern>/Doctor/Prescribe</url-pattern>
+        <url-pattern>/Doctor/PatientHistory</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>plogin</servlet-name>
+        <servlet-class>PatientControllers.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>plogin</servlet-name>
+        <url-pattern>/PatientLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>pregister</servlet-name>
+        <servlet-class>PatientControllers.RegisterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pregister</servlet-name>
+        <url-pattern>/PatientRegister</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ratedoctor</servlet-name>
+        <servlet-class>PatientControllers.AddDoctorReviewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ratedoctor</servlet-name>
+        <url-pattern>/AddDoctorReview</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>pterminate</servlet-name>
+        <servlet-class>PatientControllers.TerminateAccountController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pterminate</servlet-name>
+        <url-pattern>/TerminateAccountRequest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>book</servlet-name>
+        <servlet-class>PatientControllers.BookAppointmentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>book</servlet-name>
+        <url-pattern>/BookAppointment</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>alogin</servlet-name>
+        <servlet-class>AdminControllers.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>alogin</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>aregister</servlet-name>
+        <servlet-class>AdminControllers.RegisterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>aregister</servlet-name>
+        <url-pattern>/AdminRegister</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>aaddnew</servlet-name>
+        <servlet-class>AdminControllers.AdminAddNewUserController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>aaddnew</servlet-name>
+        <url-pattern>/AdminAddNewUser</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>adeleteuser</servlet-name>
+        <servlet-class>AdminControllers.AdminDeleteUserController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adeleteuser</servlet-name>
+        <url-pattern>/AdminDeleteUser</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>afeedback</servlet-name>
+        <servlet-class>AdminControllers.AdminAddFeedbackController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>afeedback</servlet-name>
+        <url-pattern>/AdminAddFeedBack</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>dlogin</servlet-name>
+        <servlet-class>DoctorControllers.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dlogin</servlet-name>
+        <url-pattern>/DoctorLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddMedicine</servlet-name>
+        <servlet-class>DoctorControllers.AddMedicineController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMedicine</servlet-name>
+        <url-pattern>/AddMedicine</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>PrescribePatient</servlet-name>
+        <servlet-class>DoctorControllers.PrescribePatientController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PrescribePatient</servlet-name>
+        <url-pattern>/PrescribePatient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>slogin</servlet-name>
+        <servlet-class>SecretaryControllers.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>slogin</servlet-name>
+        <url-pattern>/SecretaryLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>approve</servlet-name>
+        <servlet-class>SecretaryControllers.ApprovePatientController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>approve</servlet-name>
+        <url-pattern>/ApprovePatient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeletePatient</servlet-name>
+        <servlet-class>SecretaryControllers.DeletePatientController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletePatient</servlet-name>
+        <url-pattern>/DeletePatient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreateAppointment</servlet-name>
+        <servlet-class>SecretaryControllers.CreateAppointmentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateAppointment</servlet-name>
+        <url-pattern>/CreateAppointment</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>OrderMedicine</servlet-name>
+        <servlet-class>SecretaryControllers.OrderMedicineController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderMedicine</servlet-name>
+        <url-pattern>/OrderMedicine</url-pattern>
+    </servlet-mapping>
+        
+    <error-page>
+        <location>/error.html</location>
+    </error-page>
+</web-app>

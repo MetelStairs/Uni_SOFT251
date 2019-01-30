@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><app>
+    <users>
+        <user approved="" by="" firstname="eric" lastname="Murithi" password="eric" type="admin" username="eric"/>
+        <user approved="" by="" firstname="virginia" lastname="Wangui" password="virginia" type="doctor" username="virginia"/>
+        <user approved="" by="" firstname="bessy" lastname="Mwendwa" password="bessy" type="secretary" username="bessy"/>
+        <user approved="Y" by="bessy" firstname="ericpat" lastname="Murithi" password="ericpat" type="patient" username="ericpat"/>
+    </users>
+    <ratings>
+        <rating doctor="doc eric" message="He did not do well" rate="1" user="eric"/>
+    </ratings>
+    <feedbacks>
+        <feedback/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+        <feedback doctor="eric" feedback="I was about to fire you"/>
+    <feedback doctor="eric" feedback="I was about to fire you"/>
+<feedback doctor="eric" feedback="I was about to fire you"/>
+</feedbacks>
+    <appointments>
+    
+
+        <appointment created="N" date="2019-01-16 13:00:00" doctor="doc eric" user="eric"/>
+    </appointments>
+    <prescriptions>
+        <prescription created="N" date="2019-01-16 13:00:00" doctor="doc eric" user="eric"/>
+    </prescriptions>
+    <medicines>
+        
+    
+<medicine description="I was about to fire you" name="eric" quantity="2" type="j"/>
+</medicines>
+</app>

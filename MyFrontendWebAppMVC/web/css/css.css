@@ -1,0 +1,18 @@
+body, html{
+    background: white;
+    color: black;
+}
+
+.yellow-color{
+    color: #FAEE78;
+}
+.red{
+    color: red;
+}
+td, th{
+    padding-bottom: 20px;
+}
+td button{
+    width: 100%;
+}
+

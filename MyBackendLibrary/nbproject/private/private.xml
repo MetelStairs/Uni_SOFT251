@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Entities/Prescription.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Model/FeedbackModel.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Entities/Medicine.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Model/MedicineModel.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Entities/Rating.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Model/PrescriptionModel.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Model/RatingModel.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Model/AppointmentModel.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/nbproject/private/private.xml</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Dao/FeedbackDao.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Model/UserModel.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Main/Main.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Dao/AppointmentDao.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Dao/PrescriptionDao.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/Users_1.xml</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/build.xml</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Entities/Feedback.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Entities/Appointment.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/dist/README.TXT</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Dao/UserDao.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/nbproject/project.xml</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/manifest.mf</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Dao/RatingDao.java</file>
+            <file>file:/C:/Users/ELISW/Desktop/SOFT25/MyBackendLibrary/src/Entities/User.java</file>
+        </group>
+    </open-files>
+</project-private>
